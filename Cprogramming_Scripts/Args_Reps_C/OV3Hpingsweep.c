@@ -1,4 +1,4 @@
-// Argumentos e Repetições em C usando Condições
+// Tools - OV3H PingSweep v1.0
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -7,7 +7,7 @@ int main(int argc, char *argv[]){
     int i;
 
     if(argc < 2){
-        printf("\t\n\t\t[OV3H] PingSweep 1.1");
+        printf("\t\n\t\t[OV3H] PingSweep 1.0");
         printf("\t\n\tModo de uso: %s <IP>\n", argv[0]);
     } else { 
         char comando[100]; // definindo tamanho da variavel
